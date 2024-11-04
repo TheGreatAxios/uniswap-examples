@@ -12,7 +12,7 @@ export function buildCoinbaseWalletConnector() {
         options: {
           url: INPUT_CHAIN_URL,
           appName: 'Uniswap Example',
-          reloadOnDisconnect: false,
+          reloadOnDisconnect: true,
         },
         onError: onConnectionError,
       })
